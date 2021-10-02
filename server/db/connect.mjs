@@ -1,7 +1,8 @@
 import mongoose from 'mongoose';
 
 //connect to DB
-const dbURL = process.env.DB_URL || "mongodb://localhost:27017/Icloset";
+const dbURL = process.env.DB_URL || "mongodb://localhost:27017/Icloset"
+mongoose.connect(dbUrl, {useNewUrlParser: true, useUnifiedTopology: true});
 
 export const connect = () =>{
 mongoose.connect(dbURL,{
