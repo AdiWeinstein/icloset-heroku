@@ -1,0 +1,129 @@
+.home {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s;
+    animation: bg_img 50s forwards infinite ;
+   
+}
+
+@keyframes bg_img{
+    0%{
+        background-image: url(../../Helpers/CarouselImage/1.jpg);
+    }
+    33%{
+        background-image: url(../../Helpers/CarouselImage/2.jpg);
+    }
+    66%{
+        background-image: url(../../Helpers/CarouselImage/3.jpg);
+    }
+    100%{
+        background-image: url(../../Helpers/CarouselImage/4.jpg);
+    }
+}
+
+.getStartedBtn {
+    color: rgb(228, 181, 224);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* justify-content: left; */
+    background-color: black;
+    height: 60px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 35px;
+    padding: 20px;
+    align-self: center;
+    line-height: normal;
+}
+
+.container {
+    margin-top: 100px; 
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black; 
+    background: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background: rgba(255, 255, 255, 0.836); 
+    height: 500px; 
+}
+
+h1.header {
+    color: black;
+    text-shadow: 2px 2px 8px #8c8b8b;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 70px;
+    
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 5s steps(20, end);
+      
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+
+@media (max-width: 760px) {
+    .container {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .getStartedBtn {
+        margin-top: 600px;
+    }
+    h1.header {
+        font-size: 50px;
+    }
+}
+
+.getStartedBtn:hover {
+    animation: btnEffect 0.5s 2; 
+    /*animation-name: btnEffect;
+      animation-duration: 0.4s;
+      animation-iteration-count: 2; */
+}
+
+@keyframes btnEffect {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translateX(-4px) rotate(-4deg);
+    }
+
+    40% {
+        transform: translateX(-2px) rotate(-2deg);
+    }
+
+    60% {
+        transform: translateX(4px) rotate(4deg);
+    }
+
+    80% {
+        transform: translateX(2px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0px) rotate(0deg);
+    }
+}

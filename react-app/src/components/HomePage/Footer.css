@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+ 
+
+}
+
+.socialMedia{
+    display: flex;
+    color: rgb(228, 181, 224);
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 20px;
+}
+.socialMedia svg{
+    font-size: 40px;
+}
+
+.copy{
+    font-size: 12px;
+    color: white;
+}
+.footer svg :hover{
+   color: #eb5b8c;
+  
+}

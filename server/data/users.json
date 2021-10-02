@@ -1,0 +1,29 @@
+[{
+        "name": "Anna",
+        "id": 1,
+        "password": 1234,
+        "likedItemsArray": [{
+            "objectId": "",
+            "collection": [{ "topID": "" }, "", ""]
+        }]
+
+    },
+    {
+        "name": "Adi",
+        "id": 2,
+        "password": 5678,
+        "ItemsArray": []
+    },
+    {
+        "name": "Yehiel",
+        "id": 3,
+        "password": 1010,
+        "ItemsArray": []
+    },
+    {
+        "name": "Josh",
+        "id": 4,
+        "password": 2020,
+        "ItemsArray": []
+    }
+]

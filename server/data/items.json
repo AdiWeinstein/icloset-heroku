@@ -1,0 +1,41 @@
+[{
+        "productType": "shirt",
+        "color": "white",
+        "category": "going-out",
+        "best-for": "summer",
+        "added-by-user-id": 1
+    },
+    {
+        "objectId": "",
+        "type": "shoes",
+        "productType": "shoes",
+        "imageUrl": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/380353/01/sv01/fnd/IND/fmt/png"
+    },
+    {
+        "type": "buttom",
+        "productType": "pants",
+        "imageUrl": "https://op1.0ps.us/original/opplanet-black-diamond-alpine-light-climbing-pants-womens-wild-rose-extra-small-apo9m86012xsm1-main"
+    },
+    {
+        "type": "top",
+        "productType": "t-shirt",
+        "imageUrl": "https://imgs.michaels.com/MAM/assets/1/726D45CA1C364650A39CD1B336F03305/img/893E44B4248847338CD88E85BD79D361/10186027_r.jpg?fit=inside|540:540"
+    },
+    {
+        "type": "buttom",
+        "productType": "skirt",
+        "imageUrl": "https://media.istockphoto.com/photos/red-elegant-skirt-with-ribbon-bow-isolated-on-white-picture-id882157056?k=6&m=882157056&s=612x612&w=0&h=UD9iB1SIBldSnYKQtikLMAxEan0AuQj3US752FigGg0="
+    },
+    {
+        "type": "top",
+        "productType": "dress",
+        "imageUrl": "https://dictionary.cambridge.org/es/images/full/dress_noun_002_11545.jpg?version=5.0.184"
+    },
+    {
+        "type": "shoes",
+        "productType": "shoes",
+        "imageUrl": "https://rukminim1.flixcart.com/image/332/398/kmwcuq80/shoe/w/u/s/7-444-gry-org-bruton-orange-original-imagfp7fzz5ftzfc.jpeg?q=50"
+    }
+
+
+]
