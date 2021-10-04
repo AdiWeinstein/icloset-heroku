@@ -34,7 +34,6 @@ a:hover {
     font-size: 140%;
     display: flex;
     flex-wrap: nowrap;
-    /* position: absolute; */
 }
 .menu-btn {
     display: none;

@@ -8,32 +8,10 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 import { ViewAllContext } from "../viewAll/ViewAllContext";
 
 export default function LikedItems() {
-  // const [collections, setCollections] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const { combination, setCombination, combinationsList } =
     useContext(ViewAllContext);
-
-  // const deleteBtn = (id) => {
-  //   setCollections(
-  //     collections.filter((combination) => {
-  //       return combination._id !== id;
-  //     })
-  //   );
-  //    if (combination.length -1 == currentIndex ){
-  //      setCurrentIndex(currentIndex - 1)
-  //    }
-  // };
-
-  // Get all item
-  // useEffect(() => {
-  //   fetch(`http://localhost:8080/api/likedItems/`)
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       console.log("collection data", data);
-  //       setCollections(data);
-  //     });
-  // }, []);
 
   const deleteCombination = (_id) => {
     // DELETE request
@@ -49,15 +27,8 @@ export default function LikedItems() {
       setCurrentIndex(currentIndex - 1);
     }
 
-    // const confirmBox = window.confirm(
-    //   "Do you really want to delete this Combination?"
-    // );
-    // if (confirmBox === true) {
-
-    // }
   };
 
-  //console.log("p", combination, currentIndex);
 
   return (
     <div className="liked-items">
@@ -84,7 +55,6 @@ export default function LikedItems() {
                 currentIndex={combination[currentIndex]}
               />
             )}
-            {/* <p>{currentIndex}</p> */}
           </div>
 
           <div className="right">

@@ -49,14 +49,6 @@ export default function MainComponent() {
     setShowResults(true); // switch the message with the images
     setFindBtn(true); // change the text on the "Find Me" button
 
-    // const findElse = items.filter(item => item.type === "else"); const theElse =
-    // findElse[Math.floor(Math.random() * findElse.length)];
-    // return setCombination([theTop, theBottom, theShoes]);
-
-    //Instead of duplicating this code for each category I created a global getRandom function
-    // and a forEach function that goes over all the items
-    // and produces an object whose "key" is the category (top,bottom,shoes,else)
-    //and the value is an array of all the items from the same category.
   };
   console.log("combin", context.combination);
 

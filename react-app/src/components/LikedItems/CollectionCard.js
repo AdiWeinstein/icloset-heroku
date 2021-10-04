@@ -22,12 +22,10 @@ function CollectionCard({ combination, _id , deleteCombination, currentIndex}) {
           ))}
         </div>
 
-        {/* {collection.length === 0 ? 'Loading...' : collection.map((item) => <Combination key={collection.id} {...item}/>)} */}
       </div>
       <DeleteOutlineOutlinedIcon
         className="delete_icon"
         onClick={() => deleteCombination(currentIndex._id)}
-        // onClick={(e) => deleteCombination(combination.indexOf(e.target.value)._id)}
         
       />
     </>

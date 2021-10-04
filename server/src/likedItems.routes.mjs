@@ -18,10 +18,6 @@ likedItemsRouter.post("/", async(req, res) => {
     }
 });
 
-//Get liked combinations by user id
-// likedItemsRouter.get("/:id", (req, res) => {
-//      res.send(getLIked(req.params.id));
-// });
 likedItemsRouter.get("/", async (req, res) => {
     res.send(await getAllLikedItems());
 });
